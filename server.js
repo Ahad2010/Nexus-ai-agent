@@ -1,4 +1,4 @@
- const express = require('express');
+  const express = require('express');
 const cors    = require('cors');
 
 const app  = express();
@@ -7,7 +7,7 @@ const PORT = process.env.PORT || 3000;
 // ══════════════════════════════════════════
 //  🔑 API KEY
 // ══════════════════════════════════════════
-const API_KEY = process.env.API_KEY || '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';
+const API_KEY = process.env.API_KEY || ' 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';
 const API_URL = 'https://api.groq.com/openai/v1/chat/completions';
 const MODEL   = ' openai/gpt-oss-safeguard-20b'; // Groq model
 
