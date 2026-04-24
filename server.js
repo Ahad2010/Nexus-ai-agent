@@ -4,9 +4,9 @@ const cors    = require('cors');
 const app  = express();
 const PORT = process.env.PORT || 3000;
  
-const API_KEY = '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';   // ← apni key daalo
-const API_URL = 'https://openrouter.ai/api/v1/chat/completions';
-const MODEL = 'tencent/hy3-preview:free';
+const API_KEY = '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';
+const API_URL = 'https://api.groq.com/openai/v1/chat/completions';
+const MODEL   = 'openai/gpt-oss-safeguard-20b';
  
 const SYSTEM_PROMPT = 'You are NexusAI, a helpful and friendly AI assistant. Give clear, concise, and accurate answers. Format code in markdown code blocks when needed.';
  
