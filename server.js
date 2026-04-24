@@ -4,7 +4,7 @@ const cors    = require('cors');
 const app  = express();
 const PORT = process.env.PORT || 3000;
  
-const API_KEY = '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';   // ← apni key daalo
+const API_KEY = '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';   // ← apni key daalo
 const API_URL = 'https://openrouter.ai/api/v1/chat/completions';
 const MODEL = 'tencent/hy3-preview:free';
  
