@@ -9,7 +9,7 @@ const PORT = process.env.PORT || 3000;
 // ══════════════════════════════════════════
 const API_KEY = process.env.API_KEY || ' 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';
 const API_URL = 'https://api.groq.com/openai/v1/chat/completions';
-const MODEL   = ' llama3-8b-8192'; // Groq model
+const MODEL   = 'llama-3.1-8b-instant'; // Groq model
 
 const SYSTEM_PROMPT = 'You are NexusAI, a helpful and friendly AI assistant. Give clear, concise, and accurate answers. Format code in markdown code blocks when needed.';
 
